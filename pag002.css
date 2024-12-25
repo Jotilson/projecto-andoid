@@ -1,0 +1,193 @@
+@charset "UTF-8";
+    
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+  @font-face {
+    font-family: 'Bebas';
+    src: url('fontes/BebasNeue-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Lobster';
+    src: url('fontes/Lobster-Regular.ttf') format('truetype');
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  font-size: 16px;
+    background-color: #bad6c6d3 ;
+    text-align: justify;
+}
+  img{
+    max-width: 153px;
+    min-width: 243px;
+    display: block;
+    margin: auto;
+  }
+header{
+   padding: 50px;
+  padding-top: 40px;
+  background-image:  linear-gradient(to bottom,  #34AA67, #1A5C37);
+  text-align: center;
+  color: white;
+ }
+ h1{
+  font-family: 'Bebas';
+  font-size: 7vw;
+  padding-bottom: 21px;
+ }
+section p{
+padding: 18px;
+line-height: 2em;
+text-align: justify;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+}
+section.img{
+ background-attachment: fixed;       
+ padding-left: 6vh;
+padding-top: 8vh;
+padding-bottom: 8vh;
+box-shadow: inset  1px 0px 10px 0px rgb(0, 0, 0);
+
+}
+section.img p{
+background-color: rgba(94, 90, 90, 0.42);
+display: inline-block;
+padding: 2px;
+border-radius: 5px;
+color: black;
+box-shadow: -1px -1px 5px black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 17px; 
+}
+strong{
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+     
+#img01{
+  background-image: url('imagens/Cup.png');
+ background-attachment: fixed;
+ background-position: right center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+
+}
+
+#img02{
+  background-image: url('imagens/eclair02.png');
+  background-attachment: fixed;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+#img03{
+  background-image: url('imagens/ginger02.png');
+  background-attachment: fixed;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#img04{
+  background-image: url('imagens/ice02.png');
+  background-attachment: fixed;
+ background-position: right;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#img05{
+  background-image: url('imagens/kitkat.png');
+  background-attachment: fixed;
+ background-position: right;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#img06{
+  background-image: url('imagens/marshmallow03.png');
+  background-attachment: fixed;
+ background-position: right;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#img07{
+  background-image: url('imagens/oreo02.png');
+  background-attachment: fixed;
+ background-position: right;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+img.f{
+    float: left;
+    border-style: double;
+    min-width: 150px;
+border-radius: 15px;
+
+}
+.imgnougatf{
+  float: left;
+  border-style: ridge;
+    min-width: 134px;
+border-radius: 5px;
+}
+.normal01{
+    padding-top: 5%;
+    padding-bottom: 7%;
+    line-height: 2.3em;
+}
+.b{
+  padding-bottom: 0%;
+}
+ header button{
+    padding: 3px;
+ background-color: #34AA67;
+ border-radius: 5px;
+}
+button a{
+    color: white;
+ text-decoration: none;
+ font-weight: 900;
+
+}
+button:hover{
+    border-radius: 5px;
+    border-color: rgb(25, 207, 180);
+}
+
+.inicio{
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+}
+span{
+  padding: 15px;
+  background-color: #34AA67;
+  border-radius: 5px;
+  border-color: rgb(25, 207, 180);
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+
+}
+span a{
+  padding: 5px;
+}
+span a:hover{
+  color: red;
+  padding: 15px;
+  border-radius: 5px;
+    border-color: rgb(25, 207, 180);
+}
+ span a:active{
+  color: yellow;
+ }

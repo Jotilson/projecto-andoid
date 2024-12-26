@@ -131,19 +131,13 @@ text-align: justify;
         margin: auto;
     }
     a.externo{
-        text-decoration: none;
-        padding: 7px;
-        border-radius: 10px;
-        background-color: var(--cor1);
+        text-decoration: solid;
        color: var(--cor5);
     }
      main a.externo:hover{
-         text-decoration: solid;
+         text-decoration: none;
          color: red;
          
-     }
-     a.externo::after{
-        content: '\00A0\00A0\1F517';
      }
      strong{
         color: var(--cor4);
@@ -201,16 +195,6 @@ text-align: justify;
         color: white;
         text-decoration: none;
     }
-    footer a:hover{
-        text-decoration: solid;
-     color: lightgreen;
-     
-    }
-    footer a:active{
-    background-image:  linear-gradient(to bottom, yellow, red);
-    padding: 10px;
-    color: black;
-    }
-    footer a::after{
-        content: '\00A0\1F517';
-    }
+   
+    
+    

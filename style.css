@@ -131,20 +131,15 @@ text-align: justify;
         margin: auto;
     }
     a.externo{
-        text-decoration: none;
-        padding: 7px;
-        border-radius: 10px;
-        background-color: var(--cor1);
-       color: var(--cor5);
+       
+       color: var(--cor3);
     }
      main a.externo:hover{
          text-decoration: none;
          color: red;
          
      }
-     a.externo::after{
-        content: '\00A0\00A0\1F517';
-     }
+    
      strong{
         color: var(--cor4);
         font-size: 20px;
